@@ -14,15 +14,12 @@ accompanistSystemuicontroller = "0.30.1"
 androidGradlePlugin = "8.8.2"
 coil = "2.7.0"
 converterGson = "2.11.0"
-hilt = "2.56.1"
-dagger = "2.37"
-hiltLifecycleViewmodel = "1.2.0"
-hiltPlugin = "2.48"
+hilt = "2.51.1" # Or latest available
+hiltCompiler = "2.51.1"
+
 kotlinxCoroutinesAndroid = "1.10.1"
 kotlinxCoroutinesCore = "1.10.1"
 retrofit = "2.11.0"
-ksp = "2.1.20-2.0.1"
-
 
 material3Android = "1.3.1"
 okhttp = "5.0.0-alpha.11"
@@ -37,16 +34,7 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
-dagger-android = { module = "com.google.dagger:dagger-android", version.ref = "dagger" }
-dagger-android-support = { module = "com.google.dagger:dagger-android-support", version.ref = "dagger" }
-dagger-android-processor = { module = "com.google.dagger:dagger-android-processor", version.ref = "dagger" }
 
-# Hilt (sudah ada hilt-android dan hilt-android-compiler)
-# ganti ke KSP jika tidak menggunakan KAPT
-hilt-android-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
-
-
-androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltLifecycleViewmodel" }
 coil-kt-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
 lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie-compose" }
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
@@ -66,13 +54,17 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hiltCompiler" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version = "1.2.0" } # Compose navigation with Hilt
+
 
 [plugins]
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
-dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltPlugin" }
 android-test = { id = "com.android.test", version.ref = "androidGradlePlugin" }
-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
