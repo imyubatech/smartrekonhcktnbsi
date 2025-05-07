@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartRekon</string>
+    <string name="title_feature_login">Module Title</string>
+    <string name="title_feature_profile">Module Title</string>
+</resources>
