@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.rememberNavController
 import com.hackathonpfma.core.ui.theme.SmartRekonTheme
+import com.hackathonpfma.smartrekon.navigation.AppMain
 import com.hackathonpfma.smartrekon.navigation.NavGraph
 
 class MainActivity : ComponentActivity() {
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
             SmartRekonTheme {
-                NavGraph(navController)
+                AppMain()
             }
         }
     }

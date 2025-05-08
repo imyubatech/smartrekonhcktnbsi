@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="smart_rekon_logo_desc">Smart Rekon Logo</string>
+    <string name="login">Login</string>
+    <string name="monitor_your_docs_in_minutes">Monitor your docs in minutes</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

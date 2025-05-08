@@ -5,8 +5,11 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navigation
 import com.hackathonpfma.core.*
+import com.hackathonpfma.core.navigation.AppNav
 import com.hackathonpfma.core.navigation.LoginFeature
+import com.hackathonpfma.core.navigation.NavModule
 
 @Composable
 fun LoginNavigation(loginNavController: NavHostController, navController: NavHostController) {
@@ -17,7 +20,7 @@ fun LoginNavigation(loginNavController: NavHostController, navController: NavHos
     ) {
         composable(LoginFeature.LoginScreen.name) {
             LoginScreen(){
-
+                    navController.navigate(NavModule.AuthModule.name)
             }
         }
     }

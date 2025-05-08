@@ -2,4 +2,6 @@
     <string name="app_name">SmartRekon</string>
     <string name="title_feature_login">Module Title</string>
     <string name="title_feature_profile">Module Title</string>
+    <string name="background_splashscreen">background_splashscreen</string>
+    <string name="lorem_logo">lorem logo</string>
 </resources>
