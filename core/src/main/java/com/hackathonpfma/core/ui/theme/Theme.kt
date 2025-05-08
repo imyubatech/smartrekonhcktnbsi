@@ -1,4 +1,4 @@
-package com.hackathonpfma.smartrekon.ui.theme
+package com.hackathonpfma.core.ui.theme
 
 import android.app.Activity
 import android.os.Build

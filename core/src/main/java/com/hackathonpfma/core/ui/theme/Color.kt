@@ -1,4 +1,4 @@
-package com.hackathonpfma.smartrekon.ui.theme
+package com.hackathonpfma.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
