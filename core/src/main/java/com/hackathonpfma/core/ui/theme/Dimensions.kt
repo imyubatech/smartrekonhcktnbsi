@@ -1,4 +1,4 @@
-package com.hackathonpfma.core
+package com.hackathonpfma.core.ui.theme
 
 import androidx.compose.ui.unit.dp
 

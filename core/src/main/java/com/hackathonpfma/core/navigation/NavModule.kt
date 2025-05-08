@@ -1,4 +1,4 @@
-package com.hackathonpfma.core
+package com.hackathonpfma.core.navigation
 
 enum class NavModule {
 	AuthModule,

@@ -4,8 +4,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -14,9 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.hackathonpfma.core.Dimensions
+import com.hackathonpfma.core.ui.theme.AppColor
+import com.hackathonpfma.core.R
 import kotlinx.coroutines.delay
-import com.hackathonpfma.core.*
 
 @Composable
 fun SplashScreen(onBoarding: () -> Unit) {
@@ -51,5 +49,5 @@ fun SplashScreen(onBoarding: () -> Unit) {
 @Preview
 @Composable
 private fun view() {
-    SplashScreen {  }
+    SplashScreen { }
 }
