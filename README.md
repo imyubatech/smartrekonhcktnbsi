@@ -9,7 +9,7 @@ A high-end user-centric Android application engineered with Jetpack Compose and 
 
 ## Description
 
-**[Nama Aplikasi Anda]**, also known as **Smart Recon Apps**, is a sophisticated Android application designed for the streamlined monitoring of vendor-submitted documents. The application categorizes documents into three distinct states: **Waiting List Document**, **Approved Document**, and **Rejected Document**.
+**[Smart Rekon]**, also known as **Smart Recon Apps**, is a sophisticated Android application designed for the streamlined monitoring of vendor-submitted documents. The application categorizes documents into three distinct states: **Waiting List Document**, **Approved Document**, and **Rejected Document**.
 
 Leveraging the declarative UI paradigm of Jetpack Compose, the application provides an intuitive and efficient interface for high-end users. Its modular architecture ensures a robust and maintainable codebase, facilitating scalability and independent feature development. The core functionality includes comprehensive dashboards and detailed views, significantly enhancing the ease with which users can monitor the status and details of submitted documents.
 
