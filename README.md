@@ -1,4 +1,4 @@
-# Aplikasi [Nama Aplikasi Anda]
+# Aplikasi [Smart Rekon]
 
 [![Kotlin](https://img.shields.io/badge/kotlin-1.9.25-blueviolet.svg?style=flat-square&logo=kotlin)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-latest-brightgreen.svg?style=flat-square&logo=android)](https://developer.android.com/jetpack/compose)
