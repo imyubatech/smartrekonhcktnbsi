@@ -48,6 +48,6 @@ fun AppMain() {
 }
 
 sealed class BottomNavItem(val route: String, val label: String, val icon: @Composable () -> Unit) {
-    object Home : BottomNavItem(route = Route.DASHBOARD, label = "Home", icon = { Icon(Icons.Filled.Home, contentDescription = "Home") })
+    object Home : BottomNavItem(route = Route.DASHBOARD, label = "Dashboard", icon = { Icon(Icons.Filled.Home, contentDescription = "Dashboard") })
     object Profile : BottomNavItem(Route.PROFILE, "Profile", icon = { Icon(Icons.Filled.Settings, contentDescription = "Settings") })
 }

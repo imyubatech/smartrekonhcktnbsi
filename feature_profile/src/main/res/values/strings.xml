@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logout">Logout</string>
+    <string name="my_places">My places</string>
+    <string name="payments">Payments</string>
+    <string name="past_trips">Past trips</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="go_to">Go to %1$s</string>
+</resources>
